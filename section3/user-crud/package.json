@@ -1,0 +1,12 @@
+{
+  "name": "usesr-crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "pug": "^2.0.0-rc.2"
+  }
+}
