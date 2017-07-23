@@ -1,0 +1,9 @@
+form(action="/create-new-user")
+  input(type="text" name="first")
+  input(type="text" name="last")
+  input(type="submit" value="Create a user with GET!")
+
+form(action="/create-new-user" method="POST")
+  input(type="text" name="first")
+  input(type="text" name="last")
+  input(type="submit" value="Create a user with POST!")
