@@ -1,0 +1,12 @@
+h1 Here are the items in the shopping list
+each item in shop_list
+  p #{item}
+
+form(action="/search")
+  input(type="text" name="item")
+  input(type="submit" value="Search")
+
+
+form(action="/new-item")
+  input(type="submit" value="Add New Item")
+
