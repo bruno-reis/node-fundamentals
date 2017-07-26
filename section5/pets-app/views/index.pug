@@ -1,0 +1,9 @@
+extends base.pug
+
+block content
+  h1 See all the Pets!
+  a(href="/pets/new") Create a new pet
+  ul
+    each pet in pets
+      li #{pet.name}
+        a(href=`/pets/${pet.id}/edit`)  Edit
